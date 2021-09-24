@@ -6,13 +6,6 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-
-# Test.destroy_all
-# User.destroy_all
-# Hobby.destroy_all
-# Post.destroy_all
-# Comment.destroy_all
-
 Test.create!(name: 'Black-Capped Chickadee', species: 'Poecile Atricapillus')
 Test.create!(name: 'Grackle', species: 'Quiscalus Quiscula')
 Test.create!(name: 'Common Starling', species: 'Sturnus Vulgaris')
